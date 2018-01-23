@@ -40,8 +40,8 @@ var User = mongoose.model("User", userSchema);
 // 3. Add post to that user
 // 4. Save the user
 Post.create({
-    title: "Burgers",
-    content: "test test"
+    title: "Title",
+    content: "Content Section"
 }, function(err, post) {
     console.log(post._id);
     // find a user after creating the post
